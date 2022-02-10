@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-10T16:07:34 IST" name="Default suite" finished-at="2022-02-10T16:08:12 IST" duration-ms="37104">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestCarWash.checkErrorMessage()[pri:1, instance:testClasses.TestCarWash@7ce026d3]" name="checkErrorMessage" class="testClasses.TestCarWash"/>
+        <method signature="TestCarWash.extractCarWashServices()[pri:0, instance:testClasses.TestCarWash@7ce026d3]" name="extractCarWashServices" class="testClasses.TestCarWash"/>
+        <method signature="TestCarWash.extractGymSubMenus()[pri:2, instance:testClasses.TestCarWash@7ce026d3]" name="extractGymSubMenus" class="testClasses.TestCarWash"/>
+      </group> <!-- Sanity -->
+      <group name="Reggression">
+        <method signature="TestCarWash.checkErrorMessage()[pri:1, instance:testClasses.TestCarWash@7ce026d3]" name="checkErrorMessage" class="testClasses.TestCarWash"/>
+        <method signature="TestCarWash.extractCarWashServices()[pri:0, instance:testClasses.TestCarWash@7ce026d3]" name="extractCarWashServices" class="testClasses.TestCarWash"/>
+        <method signature="TestCarWash.extractGymSubMenus()[pri:2, instance:testClasses.TestCarWash@7ce026d3]" name="extractGymSubMenus" class="testClasses.TestCarWash"/>
+      </group> <!-- Reggression -->
+    </groups>
+    <test started-at="2022-02-10T16:07:34 IST" name="Default test" finished-at="2022-02-10T16:08:12 IST" duration-ms="37104">
+      <class name="testClasses.TestCarWash">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testClasses.TestCarWash@7ce026d3]" started-at="2022-02-10T16:07:25 IST" name="openBrowser" finished-at="2022-02-10T16:07:34 IST" duration-ms="9157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="extractCarWashServices()[pri:0, instance:testClasses.TestCarWash@7ce026d3]" started-at="2022-02-10T16:07:34 IST" name="extractCarWashServices" finished-at="2022-02-10T16:08:00 IST" duration-ms="25862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractCarWashServices -->
+        <test-method signature="checkErrorMessage()[pri:1, instance:testClasses.TestCarWash@7ce026d3]" started-at="2022-02-10T16:08:00 IST" name="checkErrorMessage" finished-at="2022-02-10T16:08:06 IST" duration-ms="5354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkErrorMessage -->
+        <test-method signature="extractGymSubMenus()[pri:2, instance:testClasses.TestCarWash@7ce026d3]" started-at="2022-02-10T16:08:06 IST" name="extractGymSubMenus" finished-at="2022-02-10T16:08:12 IST" duration-ms="5750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractGymSubMenus -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.TestCarWash@7ce026d3]" started-at="2022-02-10T16:08:12 IST" name="closeBrowser" finished-at="2022-02-10T16:08:13 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testClasses.TestCarWash -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
